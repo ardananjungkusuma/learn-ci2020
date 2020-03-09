@@ -8,7 +8,7 @@
                 <div class="col-md-6 mx-auto">
                     <!-- form card login -->
                     <!-- cek pesan -->
-                    <div class="alert alert-info" role="aler">
+                    <div class="alert alert-info" role="alert">
                         <?php
                         if (isset($pesan)) {
                             echo $pesan;

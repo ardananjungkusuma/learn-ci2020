@@ -11,6 +11,12 @@ class mahasiswa_model extends CI_Model
         return $query->result_array();
     }
 
+    public function datatabels()
+    {
+        $query = $this->db->order_by('id', 'DESC')->get('mahasiswa');
+        return $query->result();
+    }
+
     public function tambahdatamhs()
     {
         $data = [
